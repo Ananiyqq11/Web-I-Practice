@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> lab-1</title>
+    <script src="./selectedcar.js"></script>
 </head>
-<body>      
+<body>
+    <a href="index.html">TABLE DATA</a>         
     <p><h4>London</h4> is the capital city of England. 
         It is the most 	populous city in the United Kingdom, 
         with a metropolitan area of over 13 million inhabitants.
@@ -24,8 +26,29 @@
     <p> 
      Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world. 
     </p> 
-    <img height="400px" width="250px" src="tercafe.jpg">
-     <a href="index.html">TABLE DATA</a>   
-
+    <h3>Safety tips</h3>
+    <ol>
+        <li>Be able to swim</li>
+        <li>Wear a life jacket at all times</li>
+        <li>Don't stand up or move around.if canoe tips,
+            <ul>
+                <li>Hang on to the canoe</li>
+                <li>Use the canoe for support and</li>
+                <li>Swim to shore</li>
+            </ul>
+        </li>
+        <li>Don't overexert yourself</li>
+        <li>Use a bow light at night</li>
+    </ol>
+    <h3>Which car you would like the most</h3>
+    <select id="select" onchange="selectedcar()">
+        <option value="Volkswagen">Volkswagen</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="RollsRoyce">RollsRoyce</option>
+        <option value="Bentley">Bentley</option>
+    </select>
+    <input type="text" id="text">
+    <img align="right" height="400px" width="250px" src="tercafe.jpg">
+    
 </body>
 </html>
