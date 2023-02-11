@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trial</title>
+    <script src="./progress_bar_motion.js"></script>
+</head>
+<body>
+    <label>Types of Cell Classification:</label>
+    <select>
+      <optgroup label="Cell Nature">
+        <option value="Prokaryotic">Prokaryotic</option>
+        <option value="Eukaryotic">Eukaryotic</option>
+      </optgroup>
+      <optgroup label="Cell Occurence">
+        <option value="Unicellular">Unicellular </option>
+        <option value="Multicellular">Multicellular </option>
+      </optgroup>
+      <optgroup label="Mode of nutrition">
+        <option value="Autotrophs">Autotrophs</option>
+        <option value="Heterotrophs">Heterotrophs</option>
+      </optgroup>
+    </select><br><br> 
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color"> <br><br><br><br>
+      
+      <video width="520" height="230" controls>
+        <source src="./001 JavaScript in an HTML document.mp4">
+        Your browser does not support the video tag.
+      </video> <br>
+   <progress id="progressbar" min="1" max="100"></progress>    
+        <br/><br/>  
+        <button onclick="abc()">Start The Progress Bar Above</button><br><br>  
+        <label>Screen brightness range from (0 upto 100)</label>
+        <div id="container">
+              <input type="range" id="brightness-range" min="10" max="100" value="100" onchange="fun(this)">
+          </div>
+    </body>
+</html>
